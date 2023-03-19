@@ -1,0 +1,41 @@
+---
+import logoFundation from '../images/LogoFundación_transparente.png'
+---
+<style>
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 2rem;
+      
+    }
+    
+    .logo img {
+      display: block;
+      max-width: 9.3rem;
+      height: auto;
+      padding: 1.0333rem;
+    }
+  
+    nav {
+      display: flex;
+      gap: 1rem;    
+    }
+  
+    nav a {
+      color: var(--color-text);
+      padding: 2.325rem 1.0333rem;
+      text-decoration: none;
+    }
+</style>
+
+<header>
+    <div class="container">
+      <a class="logo" aria-label="Home" >Logo</a>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/">About</a>
+      </nav>
+    </div>
+</header>
