@@ -1,6 +1,16 @@
-<head>
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script> -->
-  <script type="module" src="./src/scripts/my-threejs-scene.js"></script>
-</head>
+---
+// import { animate } from "../scripts/my-threejs-scene";
+---
 
+<!-- <head> -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script> -->
+  <!-- <script is:inline type="module" src="/src/scripts/my-threejs-scene.js"></script> -->
+<!-- </head> -->
+
+<script>
+import { animate } from "../scripts/my-threejs-scene";    
+  animate();
+</script> 
 <div id="myCanvas"></div>
+
+
